@@ -134,6 +134,87 @@ textarea::-webkit-outer-spin-button {
   text-indent: -9999px;
 }
 
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+.header-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #03c75a;
+  color: #fff;
+  z-index: 5000;
+}
+
+.place-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+.place-header .title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.place-header .link-back {
+  display: flex;
+}
+.place-header .my-orders {
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.place-tab {
+  display: flex;
+  height: 46px;
+  background-color: #03b753;
+}
+.place-tab .tab-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  width: 100%;
+}
+.place-tab .tab-inner .tab {
+  flex: 1;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 16px;
+}
+.place-tab .tab-inner .tab.is-active {
+  font-weight: 700;
+  opacity: 1;
+}
+.place-tab .tab-inner .tab.is-active .txt::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #fff;
+}
+.place-tab .tab-inner .tab .txt {
+  position: relative;
+  display: inline-block;
+  padding: 0 4px;
+  line-height: 46px;
+}
+
 .dimmed-layer {
   position: fixed;
   top: 0;
@@ -172,6 +253,8 @@ textarea::-webkit-outer-spin-button {
 }
 .order-type-popup .icon {
   width: 100px;
+  height: auto;
+  color: #03c75a;
 }
 .order-type-popup .desc {
   margin-top: 8px;
