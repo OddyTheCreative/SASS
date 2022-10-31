@@ -6,6 +6,8 @@
 @import './base/preset';
 
 @import './components/header_area';
+@import './components/go_to_top';
+@import './components/amount_select';
 @import './components/menu_item';
 
 @import './components/detail/menu_detail_area';
@@ -18,6 +20,9 @@
 @import './components/menu/order_info_area';
 @import './components/menu/recent_order_area';
 @import './components/menu/order_box_area';
-@import './components/menu/go_to_top';
 
-@import './pages/order_page';
+@import './components/order/order_content';
+@import './components/order/order_content_extra';
+@import './components/order/order_form_area';
+
+@import './pages/common';

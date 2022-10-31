@@ -1623,7 +1623,7 @@
     xe = 'farthest-side',
     Me = 'closest-corner',
     Se = 'farthest-corner',
-    Te = 'ellipse',
+    Te = 'ellipsis',
     Ge = 'contain',
     he = function (r, A) {
       var B = 0,
