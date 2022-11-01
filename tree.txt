@@ -1,0 +1,69 @@
+.
+├── README.md
+├── assets
+│   ├── css
+│   │   ├── styles.css
+│   │   └── styles.css.map
+│   ├── images
+│   │   ├── bg-pattern.png
+│   │   ├── ico-arrow-gray.svg
+│   │   ├── ico-arrow.svg
+│   │   ├── ico-back.svg
+│   │   ├── ico-cart-fill-green.svg
+│   │   ├── ico-cart-fill.svg
+│   │   ├── ico-cart.svg
+│   │   ├── ico-check.svg
+│   │   ├── ico-clock.svg
+│   │   ├── ico-close-white.svg
+│   │   ├── ico-close.svg
+│   │   ├── ico-content-top-pattern.svg
+│   │   ├── ico-dish.svg
+│   │   ├── ico-exclaim.svg
+│   │   ├── ico-n-logo.svg
+│   │   ├── ico-new.svg
+│   │   ├── ico-pattern.svg
+│   │   ├── ico-period.svg
+│   │   ├── ico-star-group-fill.svg
+│   │   ├── ico-star-group.svg
+│   │   ├── ico-star.svg
+│   │   └── ico-takeout.svg
+│   └── scss
+│       ├── abstracts
+│       │   ├── _mixin_common.scss
+│       │   ├── _variables.scss
+│       │   └── _variables_color.scss
+│       ├── base
+│       │   ├── _preset.scss
+│       │   └── _reset.scss
+│       ├── components
+│       │   ├── _amount_select.scss
+│       │   ├── _go_to_top.scss
+│       │   ├── _header_area.scss
+│       │   ├── _menu_item.scss
+│       │   ├── detail
+│       │   │   ├── _menu_detail_area.scss
+│       │   │   ├── _menu_review_area.scss
+│       │   │   └── _option_popup_area.scss
+│       │   ├── menu
+│       │   │   ├── _menu_category_area.scss
+│       │   │   ├── _menu_list_area.scss
+│       │   │   ├── _order_box_area.scss
+│       │   │   ├── _order_info_area.scss
+│       │   │   ├── _order_type.scss
+│       │   │   └── _recent_order_area.scss
+│       │   └── order
+│       │       ├── _order_content.scss
+│       │       ├── _order_content_extra.scss
+│       │       └── _order_form_area.scss
+│       ├── pages
+│       │   └── _common.scss
+│       └── styles.scss
+├── docs
+│   ├── detail.html
+│   ├── index.html
+│   └── order.html
+├── module
+│   └── screen_capture.js
+└── tree.txt
+
+13 directories, 53 files
